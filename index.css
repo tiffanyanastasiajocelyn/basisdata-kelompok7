@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Preahvihear&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    background-image: url(image/bg.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+header:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    bottom: 0;
+    left: 0; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    position: relative;
+    width: 100%;
+}
+
+.logo a{
+    color: #ffff;
+    font-size: 3rem;
+}
+
+.menu{
+    width: 70%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu ul li{
+    cursor: pointer;
+}
+
+.menu a{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.menu li:hover{
+    font-weight: 600;
+}
+
+.button-profile{
+    border-radius: 50%;
+    text-align: center;
+    margin: 1% 1% 1% 1%;
+}
+
+.button-profile img{
+    border-radius: 50%;
+    text-align: center;
+    margin: 1% 1% 1% 1%;
+    cursor: pointer;
+}
+
+.header-title{
+    margin: 10% 25% 25% 25%;
+    font-size: 5rem;
+    position: relative;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.header-title h2{
+    font-size: 5rem;
+    position: relative;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.header-title p{
+    font-size: 1rem;
+    position: relative;
+    font-weight: 500;
+    text-align: center;
+}
+
+.header-title a{
+    font-size: 2.8rem;
+    color: rgb(77, 34, 231);
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.header-title a:hover{
+    background-color: rgb(77, 34, 231);
+    color: #faf6f6;
+}
+
+.sub-menu-nav{
+    position: absolute;
+    top: 80%;
+    right: 3%;
+    width: 320px;
+    height: 400px;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.sub-menu-nav.open-menu{
+    max-height: 400px;
+}
+
+.sub-menu{
+    background: #303030;
+    padding: 20px;
+    margin: 10px;
+    height: 380px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info h2{
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.user-info img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ffffff;
+    margin: 15px 0 10px;
+}
+
+.sub-menu a{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sub-menu a:hover{
+    font-weight: 600;
+}
+
+.image-container::-webkit-scrollbar{
+    height: 4px;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.image-container::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+
+.image-container{
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+    padding-left: 2px;   
+}
+
+.image-box{
+    box-shadow: rgba(255, 255, 255, 1) 1px 1px 1px 1px, rgba(255, 255, 255, 1) 0px 2px 6px 2px;
+    margin: auto;
+    border-radius: 10px;
+    width: 310px;
+    height: 350px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.image-box img{
+    width: 280px;
+    height: 210px;
+    padding: 10%;
+    border-radius: 20px;
+}
+
+.image-box h3{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.image-box h5{
+    font-size: 14px;
+    padding-top: px;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+

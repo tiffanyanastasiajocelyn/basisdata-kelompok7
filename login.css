@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(image/food.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(21, 26, 24, 0.9);
+    padding: 50px;
+    width: 330px;
+    box-shadow: 0px 0px 25px 10px black;
+    border-radius: 15px;
+    color: white;
+    
+}
+
+.input h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: font2;
+    padding-top: 0;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.input h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: font2;
+    font-weight: 50;
+    padding-top: 0;
+    margin-top: -20px;
+}
+
+.box-input {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border-bottom: 2px solid white;
+    padding: 8px 0;
+    
+}
+
+.box-input i {
+    font-size: 23px;
+    color: white;
+    padding: 5px 0;
+}
+
+.box-input input {
+    width: 85%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    font-family: font2;
+    font-weight: 500;
+}
+
+.box-input input::placeholder {
+    color: white;
+}
+
+.btn-input .box-input input:hover {
+    background: rgba(10, 10, 10, s 0.5);
+}
+
+.btn-input {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid white;
+    width: 92.5%;
+    padding: 10px;
+    color: white;
+    font-family: font2;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 10px;
+}
+
+.btn-input:hover {
+    background: black;
+}
+
+.bottom {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -20px;
+    text-align: center;
+    font-size: 13px;
+    font-family: font2;
+    text-decoration: none;
+}
+
+.bottom p {
+    color: white;  
+}
+
+.bottom a {
+    color: lightgreen;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
